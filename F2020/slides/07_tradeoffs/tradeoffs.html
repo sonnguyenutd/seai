@@ -470,6 +470,15 @@ Image CC BY-SA 3.0 by [Nojhan](https://en.wikipedia.org/wiki/Multi-objective_opt
 4. Eliminate dominated methods to find the Pareto frontier 
 5. Consider priorities among attributes to select an optimal method
 	* Which attribute(s) do I care the most about? Utility function? Judgement!
+</script></section><section data-markdown><script type="text/template">## Example: Cardiovascular Risk Prediction
+
+![Medical diagnosis](medical-diagnosis.jpg)
+
+* Features: Age, gender,  blood pressure, cholestoral level, max.
+  heart rate, ... 
+* Constraints: Accuracy must be higher than baseline
+* Invalid solutions: ??
+* Priority among attributes: ??
 </script></section><section data-markdown><script type="text/template">## Example: Lane Detection
 
 ![Lane detection internals](lane-detect.jpg)
@@ -482,7 +491,7 @@ Image CC BY-SA 3.0 by [Nojhan](https://en.wikipedia.org/wiki/Multi-objective_opt
 <li>Constraints: ML task (classification), inference time (fast,
 real-time), model size (moderate, for on-vehicle storage)</li>
 <li>Invalid solutions: Linear regression, k-NN</li>
-<li>Priority among attributes: What if accuracy &gt; interpretability = cost?</li>
+<li>Priority among attributes: What if accuracy vs cost?</li>
 </ul>
 </aside></script></section></section><section  data-markdown><script type="text/template"># Summary
 
